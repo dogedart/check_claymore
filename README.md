@@ -6,6 +6,7 @@ JSON processor (jq) and Bench Calc (bc)
 
 
 apt-get install jq
+
 apt-get install bc
 
 
@@ -23,5 +24,7 @@ cat check_claymore_json.tmp
 GPU0=25.08 GPU1=25.10 GPU2=28.77 GPU3=22.68 GPU4=25.04 GPU5=24.26 ETHHASH=150.95 DHASH=1150.10 56 57 78 48 59 64  | ETHHASH=150.95;;;; DHASH=1150.10;;;; GPU0=25.08;;;; GPU1=25.10;;;; GPU2=28.77;;;; GPU3=22.68;;;; GPU4=25.04;;;; GPU5=24.26;;;; GPU0t=56;;;; GPU1t=57;;;; GPU2t=78;;;; GPU3t=48;;;; GPU4t=59;;;; GPU5t=64;;;;
 
 #TO DO
+
 Add Nagios Logic for warning and critical
+
 Add a variable to define amount of GPUs in system
