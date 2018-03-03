@@ -1,4 +1,8 @@
 #!/bin/bash
+#check_claymore will connect to Claymore GPU miner via the specified port and retreive JSON data to monitor GPU Hash per GPU and total Hashrate
+# JSON processor and Bench Calc are used in the processing.  Install -- apt-get install jq bc
+# Share and enjoy
+
 
 rigaddr="192.168.1.100"  #Define Rig IP Address
 claymoreport="3333" #Define Claymore remote port
